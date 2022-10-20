@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    	<link rel="stylesheet" type="text/css" href="CSS/cssPrincipal.css"> <!-- CSS contendo componentes principais -->
+        <title>Pagina Inicial</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <!-- Seleciona o idioma do site -->
+        <select class="selects" id="selectIdioma" onchange="mudarIdioma()">
+            <option value="En">English</option>
+            <option value="Esp">Español</option>
+            <option value="Pt-Br" selected>Português Br</option>
+        </select>
+
+        <!-- Imagem do idioma selecionado -->
+        <img class="icones" id="imgBandeira" src="Imagens/Bandeiras/Brasil.png" alt="">
+        
+        <!-- Abrir Menu -->
+        <img class="icones" id="menu" src="Imagens/Icones/Menu.png" onclick="mostrarMenu()" alt="">
+
+        <br/>
+
+        <!-- Centraliza os componentes -->
+        <center>
+            <img class="imagemLogo" src="Imagens/Logo/Ideia2001.png" alt=""> <!-- Imagem do Logo -->
+            <br/>
+            
+            <!-- Ir Pesquisar Produtos -->
+            <a href="">
+                <button class="btn" id="btnPesquisaProduto"><img class="icones" src="Imagens/Icones/Lupa.png" alt="">Pesquisar Produtos</button> <!-- Botão Pesquiar Produtos -->
+            </a>
+
+            <!-- Ir Lançamentos -->
+            <a href="">
+                <button class="btn" id="btnLancamentos"><img class="icones" src="Imagens/Icones/Foguete.png" alt="">Lançamentos</button> <!-- Botão Lançamentos -->
+            </a>
+
+            <!-- Ir Carrinho -->
+            <a href="">
+                <button class="btn" id="btnCarrinho"><img class="icones" src="Imagens/Icones/Carinho.png" alt="">Carrinho</button> <!-- Botão Carrinho -->
+            </a>
+
+            <!-- Ir Contato -->
+            <a href="Paginas/contato.html">
+                <button class="btn" id="btnContato"><img class="icones" src="Imagens/Icones/Telefone.png" alt="">Contato</button> <!-- Botão Contato -->
+            </a>
+
+            <br/>
+            
+            <!-- Ir Site -->
+            <a href="https://www.ideia2001.com.br/" target="_blank">
+                <img class="iconeSocial" src="Imagens/Social/Internet.png" alt=""> <!-- Imagem da Internet -->
+            </a>
+
+            <!-- Ir Facebook -->
+            <a href="https://pt-br.facebook.com/Ideia2001/" target="_blank">
+                <img class="iconeSocial" src="Imagens/Social/Facebook.png" alt=""> <!-- Imagem do Facebook -->
+            </a>
+
+            <!-- Ir Instagram -->
+            <a href="https://www.instagram.com/ideia2001/" target="_blank">
+                <img class="iconeSocial" src="Imagens/Social/Instagram.png" alt=""> <!-- Imagem do Instagram -->
+            </a>
+
+        </center>
+        
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span> <!-- Fecha o menu -->
+            <!-- Centraliza os componentes -->
+            <center>
+                <h2>Menu</h2> <!-- Titulo Menu -->
+                <a href=""><p>Opção 1</p></a> <!-- Ir Opção 1 -->
+                <a href=""><p>Opção 2</p></a> <!-- Ir Opção 2 -->
+                <a href=""><p>Opção 3</p></a> <!-- Ir Opção 3 -->
+            </center>
+        </div>
+        
+        <script src="JS/jsPrincipal.js"></script> <!-- Adiciona o código JavaScript -->
+
+    </body>
+</html>

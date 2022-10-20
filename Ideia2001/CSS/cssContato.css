@@ -1,0 +1,138 @@
+/* Corpo do site */
+body{
+    background-color: #FFFFFF; /* cor-branca */
+    
+}
+
+/* Estilo para a parte de cima do site */
+.boxCima{
+    background-color: #444244; /* cor-cinza */
+    padding: 2%;
+    margin: 0px;
+
+    width: 96%;
+    height: 80px;
+}
+
+/* Estilo para a parte de baixo do site */
+.boxBaixo{
+    background-color: #FA9401; /* cor-laranja */
+    margin: 0px;
+    margin-top: 20px;
+
+    width: 100%;
+    height: 40px;
+
+}
+
+/* Estilo para o icone de voltar*/
+#Voltar{
+    float: left;
+    padding: 5px 12px;
+    
+    width: 34px;
+    height: 34px;
+    margin: 15px;
+}
+
+/* Estilo para o icone de carinho*/
+#carinho{
+    float: right;
+    padding: 5px 12px;
+    
+    width: 34px;
+    height: 34px;
+    margin: 15px;
+}
+
+/* Estilo para imagem logo*/
+.imagemLogo{
+    width: 200px;
+    margin: 0px;
+    float: center;
+}
+
+/* Estilo para o numero que fica em cima do carinho*/
+#numeroCarinho{
+    font-size: 10px;
+    background-color: #FA9401; /* cor-laranja */
+    color: #FFFFFF; /* cor-branca */
+    padding: 5px;
+    border-radius: 100%;
+    float: right;
+    margin-right: -70px;
+    margin-top: 10px;
+    margin-bottom: -60px;
+}
+
+/* Estilo para divisão que cotem informaçoes de contato*/
+.boxContato{
+    background-color: #F2F2F2; /* cor-branca mais escura */
+}
+
+/* Estilo para links de contato */
+.linksContato{
+    width: 100%;
+    background-color: #FFFFFF; /* cor-branca */
+    padding: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 1px;
+}
+
+/* Estilo para a palavra contato*/
+#contato{
+    color: #FA9401; /* cor-laranja */
+}
+
+/* Estilo para a palavra fale conosco*/
+#faleConosco{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+/* Estilo para componentes <p> */
+p{
+    color: black; /* cor-preta */
+}
+
+/* Estilo aplicado quando a tela é menor que 640px da largura */
+@media screen and (max-width: 640px){
+    /* Estilo para imagem logo */
+    .imagemLogo{
+        width: 30%;
+        height: auto;
+    }
+
+    /* Estilo para Voltar, carinho, numeroCarinho, menu */
+    #Voltar, #carinho, #numeroCarinho, #menu {
+        width: 5%;
+        height: auto;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    /* Estilo para o numero que fica em cima do carinho */
+    #numeroCarinho{
+        width: 3%;
+        height: 3%;
+        font-size: 100%;
+        margin-right: -12%;
+        border-radius: 100%;
+        padding: 0px;
+    }
+
+    /* Estilo para a parte de cima do site */
+    .boxCima{
+        height: 20%;
+    }
+
+    
+    
+
+
+    
+}

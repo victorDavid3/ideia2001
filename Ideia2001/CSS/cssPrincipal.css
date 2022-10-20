@@ -1,0 +1,247 @@
+/* Corpo do site */
+body{
+    background-color: #444244; /* cor-cinza */
+}
+
+/* Para componentes select */
+.selects{
+    
+    padding: 5px 12px;
+    
+    width: 121.33px;
+    height: 34px;
+    margin: 15px;
+
+    
+    background: #FFFFFF; /* cor-branca */
+    border-radius: 50px;
+
+    font-family: 'Roboto'; /* fonte Roboto*/
+    font-size: 12px;
+
+}
+
+/* Estilo para o menu */
+#menu{
+    float: right;
+    padding: 5px 12px;
+    
+    width: 34px;
+    height: 34px;
+    margin: 15px;
+}
+
+/* Estilo para botões */
+.btn{
+
+    width: 90%;
+    height: 50px;
+
+    background: #444244; /* cor-cinza */
+    
+    border: solid 1px #FA9401; /* cor-laranja */
+    border-radius: 50px;
+
+    margin: 10px;
+
+    font-family: 'Roboto'; /* fonte Roboto*/
+    font-size: 16px;
+
+    color: #FFFFFF; /* cor-branca */
+
+    float: center;
+}
+
+/* Estilo para botão Pesquisa Produto */
+#btnPesquisaProduto{
+    
+    background-color: #FA9401; /* cor-laranja */
+}
+
+/* Quando o mouse passar em cima do botão ele muda de cor */
+.btn:hover {
+    
+    background-color: #FA9401; /* cor-laranja */
+}
+
+/* Estilo para icones e icones de rede social */
+.icones, .iconeSocial{
+    width: 16px;
+    height: 16px;
+    margin: -3px;
+    margin-right: 5px;
+}
+
+/* Estilo para icones de rede social */
+.iconeSocial{
+   
+    background-color: #FFFFFF;  /* cor-branca */
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    margin: 2px;
+
+    margin-top: 50px;
+}
+
+/* Estilo para imagem de logo */
+.imagemLogo{
+    
+    clear: both;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    
+}
+
+/* tira a decoração dos componentes <a> */
+a{
+    text-decoration: none;
+}
+
+/* Estilo para componentes <p> */
+p{
+    
+    color: #FFFFFF; /* cor-branca */
+    font-family: 'Roboto'; /* fonte Roboto*/
+    font-size: 14px;
+}
+
+/* Estilo para componentes <h1, h2> */
+h1, h2{
+   
+    color: #FFFFFF; /* cor-branca */
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+  }
+  
+  /* Modal Conteudo */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Estolo fecha menu */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1; /* cor-branca */
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+/* Estilo aplicado quando a tela é menor que 320px da largura */
+@media screen and (max-width: 320px){
+
+    /* Corpo do site */
+    body{
+        
+        background-color: #FFB64E; /* cor-laranja */
+    }
+
+    /* Estilo para imagem de logo */
+    .imagemLogo{
+        height: auto;
+        width: 90%;
+    }
+
+    /* Estilo para o menu */
+    #menu {
+        width: 10%;
+        height: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    /* Para componentes select */
+    .selects {
+        width: 40%;
+        height: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    /* Estilo para botões */
+    .btn{
+
+        width: 90%;
+        height: 50px;
+    
+        
+        background: #444244; /* cor-cinza */
+        
+        border: solid 1px #FFFFFF; /* cor-branca */
+        border-radius: 50px;
+    
+        margin: 10px;
+    
+        font-family: 'Roboto'; /* fonte Roboto*/
+        font-size: 16px;
+
+        
+        color: #FFFFFF; /* cor-branca */
+    
+        float: center;
+    }
+
+    #btnPesquisaProduto{
+        border-color: #444242;
+    }
+    
+    .btn:hover {
+        border-color: #444242;
+    }
+
+}
+
+/* Estilo aplicado quando a tela é maior que 640px da largura */
+@media screen and (min-width: 640px){
+
+    /* Estilo para botões */
+    .btn{
+
+        width: 45%;
+        height: 50px;
+    
+        
+        background: #444244; /* cor-cinza */
+        border: solid 1px #FA9401; /* cor-laranja */
+        border-radius: 50px;
+    
+        margin: 10px;
+    
+        font-family: 'Roboto'; /* fonte Roboto*/
+        font-size: 16px;
+
+        color: #FFFFFF; /* cor-branca */
+    
+        float: center;
+    }
+
+
+    /* Estilo para imagem de logo */
+    .imagemLogo{
+    
+        margin-top: 0px;
+        
+    }
+
+}
+
+  
