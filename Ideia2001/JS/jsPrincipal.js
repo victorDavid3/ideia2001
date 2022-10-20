@@ -1,3 +1,5 @@
+// Autor: Victor David Barbosa
+
 var idioma = null;
 var textPesquisaProduto = null;
 var textLancamentos = null;
